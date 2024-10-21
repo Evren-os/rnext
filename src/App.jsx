@@ -1,9 +1,12 @@
+import Avatar from "./components/Avatar";
 import Profile from "./components/Profile";
 
 function App() {
   return (
     <div>
-      <Profile />
+      <Profile>
+        <Avatar />
+      </Profile>
     </div>
   );
 }

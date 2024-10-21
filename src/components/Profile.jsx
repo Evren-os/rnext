@@ -1,13 +1,8 @@
-import Avatar from "./Avatar";
-
-function Profile() {
+function Profile({ children }) {
   return (
-    <Avatar
-      person={{ name: "Lin Lanying", imageId: "1bX5QH6" }}
-      size={100}
-      age={18}
-      edu="null"
-    />
+    <div>
+      <p>{children}</p>
+    </div>
   );
 }
 
